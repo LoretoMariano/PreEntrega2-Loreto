@@ -8,13 +8,15 @@
     <title>Menú | El Forno Pizza</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/styles.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/menu.css">
 </head>
 
 <body>
 
+        <!--BARRA DE NAVEGACION-->
 
-    <header class="navbar navbar-expand-lg bg-body-tertiary">
+    <header class="navbar navbar-expand-lg bg-warning">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="/img/paradiso.png" class="w-25" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -40,87 +42,107 @@
         </div>
     </header>
 
+    <!--Listado de pizzas-->
+
     <main>
 
         <section>
 
-            <h2>Menú</h2>
+            <article class="menu-contenedor">
 
-            <div>
-                <h3>Muzzarella</h3>
-                <p>$2000</p>
+            <h2 class="menu__titulo" data-aos="fade-up" data-aos-duration="2000">Menú</h2>
+
+            <hr>
+
+            <div class="menu__pizzas" data-aos="fade-up" data-aos-duration="2000">
+                <h3 class="menu__titulo">Muzzarella</h3>
+                <p class="menu__descripcion">$2000</p>
             </div>
 
-            <div>
-                <h3>Garden Delight</h3>
-                <p>Muzzarella - Champignones - Morron Verde - Cebolla - Aceitunas negras en rodajas.</p>
+            <hr>
+
+            <div class="menu__pizzas" data-aos="fade-up" data-aos-duration="2000">
+                <h3 class="menu__titulo">Garden Delight</h3>
+                <p class="menu__garden-grilled-smokey">Muzzarella - Champignones - Morron Verde - Cebolla - Aceitunas negras en rodajas.</p>
                 <p>$2900</p>
             </div>
 
-            <div>
-                <h3>Grilled Vegetables</h3>
-                <p>Muzzarella - Cebolla - Morron Verde - Tomate - Mix de vegetales grillados.</p>
+            <hr>
+
+            <div class="menu__pizzas" data-aos="fade-up" data-aos-duration="2000">
+                <h3 class="menu__titulo">Grilled Vegetables</h3>
+                <p class="menu__garden-grilled-smokey">Muzzarella - Cebolla - Morron Verde - Tomate - Mix de vegetales grillados.</p>
                 <p>$2900</p>
             </div>
 
-            <div>
-                <h3>Smokey</h3>
-                <p>Muzzarella - Salami - Pollo Condimentado - Cebolla - Tomate - Salsa BBQ - Salsa Picante.</p>
+            <hr>
+
+            <div class="menu__pizzas" data-aos="fade-up" data-aos-duration="2000">
+                <h3 class="menu__titulo">Smokey</h3>
+                <p class="menu__garden-grilled-smokey">Muzzarella - Salami - Pollo Condimentado - Cebolla - Tomate - Salsa BBQ - Salsa Picante.</p>
                 <p>$3500</p>
             </div>
 
-            <div>
-                <h3>Anchoas</h3>
-                <p>Muzzarella - Anchoas - Aceitunas negras en rodajas.</p>
+            <hr>
+
+            <div class="menu__pizzas" data-aos="fade-up" data-aos-duration="2000">
+                <h3 class="menu__titulo">Anchoas</h3>
+                <p class="menu__parrafo">Muzzarella - Anchoas - Aceitunas negras en rodajas.</p>
                 <p>$3300</p>
             </div>
 
-            <div>
-                <h3>Pizza Kebab</h3>
-                <p>Muzzarella - Kebab - Tomate - Cebolla - Salsa Picante</p>
+            <hr>
+
+            <div class="menu__pizzas"  data-aos="fade-up" data-aos-duration="2000">
+                <h3 class="menu__titulo">Pizza Kebab</h3>
+                <p class="menu__parrafo">Muzzarella - Kebab - Tomate - Cebolla - Salsa Picante</p>
                 <p>$3500</p>
             </div>
 
-            <div>
-                <h3>Combo</h3>
-                <p>Muzzarella - Cebolla - Tomate - Choclo - Pollo Condimentado - Morron Verde.</p>
+            <hr>
+
+            <div class="menu__pizzas"  data-aos="fade-up" data-aos-duration="2000">
+                <h3 class="menu__titulo">Combo</h3>
+                <p class="menu__parrafo">Muzzarella - Cebolla - Tomate - Choclo - Pollo Condimentado - Morron Verde.</p>
                 <p>$3500</p>
             </div>
 
+            <hr>
+
             <div>
-                <p>TODAS NUESTRAS PIZZAS SON GRANDES!</p>
+                <p class="descripcion-menu">TODAS NUESTRAS PIZZAS SON GRANDES!</p>
             </div>
+
+        </article>
 
         </section>
 
     </main>
 
-    <footer>
+    <footer class="pie-menu bg-warning">
 
-        <div>
-            <img src="../img/forno.jpg" alt="Logo">
+        <div class="pie__logo">
+            <img src="../img/paradiso.png" alt="Logo">
         </div>
 
-        <div>
-
-            <h2>SEGUINOS EN NUESTRAS REDES</h2>
-
-            <ul>
+            <ul class="pie__redes">
                 <li> <a href="https://www.facebook.com" target="_blank">Facebook</a> <img src="" alt=""></li>
                 <li> <a href="https://www.instagram.com" target="_blank">Instagram</a> <img src="" alt=""></li>
                 <li> <a href="https://www.youtube.com" target="_blank">Youtube</a> <img src="" alt=""></li>
                 <li> <a href="https://www.twitter.com" target="_blank">Twitter</a> <img src="" alt=""></li>
             </ul>
 
-        </div>
-
-        <p>Copyright <img src="" alt=""> Mariano Loreto</p>
-
     </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
 
 </body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>

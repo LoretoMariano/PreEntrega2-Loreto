@@ -9,15 +9,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@0;1&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
+
+    <!--BARRA DE NAVEGACION-->
     <header class="navbar navbar-expand-lg bg-warning">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="./img/paradiso.png" class="w-25" alt=""></a>
@@ -45,6 +48,7 @@
     </header>
     <main>
 
+        <!--CAROUSEL-->
         <section>
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
@@ -72,141 +76,136 @@
         </section>
 
 
+        <!--Primera seccion del index-->
 
-        <section class="seccion container">
+        <section>
 
-            <article class="row">
+            <div class="tarjetas-index">
 
-                <div>
-                    <h3 class="text-center">Salsas</h3>
-                </div>
+                <article class="tarjetas__innovacion">
 
-                <div>
-                    <img src="./img/sauce.jpg" class="rounded mx-auto d-block" alt="Nuestras salsas">
-                </div>
-
-                <div>
-                    <p class="text-center">Trabajamos con productos destacados del mercado, vegetales orgánicos y de
-                        estación aprovechando
-                        al
-                        máximo la calidad de nuestra tierra y productores nacionales.</p>
-                </div>
-
-
-
-
-
-                <div>
-                    <h3 class="center">Innovación en pizzas</h3>
-                    <img src="./img/table.jpg" class="img-thumbnail mx-auto d-block img-fluid"
-                        alt="Nuestros ingredientes">
-                    <p class="text-center">No usamos ingredientes baratos y más procesados. Sea nuestra salsa exclusiva,
-                        nuestros
-                        ingredientes,
+                    <h2 class="tarjetas__titulo-innovacion">Innovacion en pizza</h2>
+                    <img class="tarjetas__img" src="./img/table.jpg" alt="">
+                    <p class="tarjetas__parrafo">No usamos ingredientes baratos y más procesados. Sea nuestra salsa
+                        exclusiva, nuestros
+                        ingredientes
                         nuestra masa fresca original, o incluso la caja, invertimos para ofrecerte siempre la mejor
                         pizza.
                     </p>
-                </div>
 
-                <div class="row">
-                    <h3 class="text-center">Comodidad</h3>
+                </article>
 
-                    <div class="col-lg-6 ">
-                        <img src="./img/salon6.jpg" class="img-fluid img-thumbnail" alt="Patio de comidas">
-                    </div>
+                <article class="tarjetas__dos">
 
-                    <div class="col-lg-6 ">
-                        <img src="./img/salon5.jpg" class="img-fluid img-thumbnail rounded float-end" alt="">
-                    </div>
+                    <h2 class="tarjetas__titulo-dos">Comodidad</h2>
 
-                    <p class="text-center">Para ti, no es solo una pizza mejor. Es una reunión familiar, un festejo
-                        laboral
-                        o, simplemente,
+                    <img class="tarjetas__img-dos" src="./img/salon5.jpg" alt="">
+
+                    <p class="tarjetas__parrafo-dos">Para ti, no es solo una pizza mejor. Es una reunión familiar, un
+                        festejo laboral o, simplemente,
                         una
                         gran comida. Nuestro objetivo es garantizar que siempre tengas los mejores ingredientes para
                         cada
-                        ocasión.</p>
-                </div>
+                        ocasión.
+                    </p>
 
-            </article>
-
-        </section>
-
-        <section class="container">
-            <h2 class="text-center">UBICACIÓN</h2>
-
-            <article>
-                <h3>Información</h3>
-                <address class="text-center">
-                    <ul>
-                        <li>Avenida Corrientes 1111</li>
-                        <li>+54 11 1111 1111</li>
-                    </ul>
-                </address>
-            </article>
-        </section>
-
-
-        <div class="container-fluid">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6512749.353593669!2d-124.59570359197231!3d37.15142985899777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1684889759560!5m2!1ses!2sar"
-                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
-        <div>
-            <img src="./img/horno.jpg" class=" img-fluid mx-auto d-block" alt="Producto terminado">
-            <p>Trabajamos nuestra masa con los mayores productores. Al igual que las panaderías artesanales, creemos que
-                hay que cuidar la cadena productora para que la masa pueda asentarse inalterada en los armarios de
-                fermentación, en los que nuestra famosa y original masa de pan sube a la perfección para lograr un sabor
-                y una textura óptimos. Supone una inversión en tiempo y dinero, pero pensamos que merece la pena.
-
-                Nuestra Marinara clásica se elabora con los mejores tomates de rama bañados por el sol, recogidos en el
-                punto álgido de la cosecha para optimizar su sabor y frescura. Para preparar la salsa, combinamos una
-                mezcla singular de hierbas y especias, seleccionadas por nuestros fundadores, que consiguen un sabor
-                siempre delicioso, distinguido y potente.
-
-                Desde nuestros comienzos, trabajamos con el queso de la más alta calidad para recubrir nuestras pizzas.
-                Nos enorgullece servir únicamente queso 100% auténtico hecho con mozzarella de leche de vaca. Nuestros
-                productores lácteos asociados, todos ellos de primer nivel, nos suministran leche de la más alta calidad
-                con la que fabricar y servir queso excepcional, consistente y sabroso.</p>
-        </div>
-
-    </main>
-
-
-    <footer>
-
-        <div class="container-fluid bg-warning">
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-2 col-12">
-                    <img src="./img/paradiso.png" alt="">
-                </div>
-
-                <div class="col-md-2 col-12 d-flex flex-column">
-                    <p class="h2">Nuestras Redes</p>
-                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                </div>
-
+                </article>
 
             </div>
 
+        </section>
+
+
+
+
+        <!--Iframe-->
+
+
+
+        <section>
+
+            <article class="mapa__articulo" data-aos="fade-up" data-aos-duration="3000">
+
+                <h2 class="mapa__titulo">UBICACIÓN</h2>
+
+                <address>
+
+                    <ul class="mapa__lista">
+
+                        <li class="direccion">Avenida Corrientes 1111</li>
+                        <li class="telefono">+54 11 1111 1111</li>
+
+                    </ul>
+
+                </address>
+
+                <iframe class="mapa__iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6512749.353593669!2d-124.59570359197231!3d37.15142985899777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1684889759560!5m2!1ses!2sar"
+                    width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </article>
+
+        </section>
+
+        <!--Segunda seccion del index-->
+        <section>
+            <article class="segundo-articulo" data-aos="fade-up" data-aos-duration="2000">
+
+                <img class="segundo__img" src="./img/horno.jpg" alt="Producto terminado">
+
+                <p class="segundo__parrafo">Trabajamos nuestra masa con los mayores productores. Al igual que las
+                    panaderías artesanales, creemos que
+                    hay que cuidar la cadena productora para que la masa pueda asentarse inalterada en los armarios de
+                    fermentación, en los que nuestra famosa y original masa de pan sube a la perfección para lograr un
+                    sabor
+                    y una textura óptimos. Supone una inversión en tiempo y dinero, pero pensamos que merece la pena.
+
+                    Nuestra Marinara clásica se elabora con los mejores tomates de rama bañados por el sol, recogidos en
+                    el
+                    punto álgido de la cosecha para optimizar su sabor y frescura. Para preparar la salsa, combinamos
+                    una
+                    mezcla singular de hierbas y especias, seleccionadas por nuestros fundadores, que consiguen un sabor
+                    siempre delicioso, distinguido y potente.
+
+                    Desde nuestros comienzos, trabajamos con el queso de la más alta calidad para recubrir nuestras
+                    pizzas.
+                    Nos enorgullece servir únicamente queso 100% auténtico hecho con mozzarella de leche de vaca.
+                    Nuestros
+                    productores lácteos asociados, todos ellos de primer nivel, nos suministran leche de la más alta
+                    calidad
+                    con la que fabricar y servir queso excepcional, consistente y sabroso.</p>
+            </article>
+        </section>
+
+    </main>
+
+    <footer class="pie bg-warning">
+
+        <div class="pie__logo">
+            <img src="./img/paradiso.png" alt="">
         </div>
 
-
-
-        <p>Copyright <img src="" alt=""> Mariano Loreto</p>
-
+        <div class="pie__redes">
+            <a class="pie__logos" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a class="pie__logos" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a class="pie__logos" href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a class="pie__logos" href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </div>
 
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
 
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
 
 </html>

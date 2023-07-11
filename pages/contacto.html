@@ -6,83 +6,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto | El Forno Pizza</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/contacto.css">
 </head>
 
 <body>
 
     <header>
 
-        <div>
-            <img src="../img/forno.jpg" alt="Logo">
-        </div>
+        <header class="navbar navbar-expand-lg bg-warning">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="/img/paradiso.png" class="w-25" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Inicio
+                                </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/pages/nosotros.html">Sobre
+                                Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/menu.html">Menú</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/promociones.html">Promociones</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
 
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./nosotros.html">Sobre Nosotros</a></li>
-                <li><a href="./menu.html">Menú</a></li>
-                <li><a href="./promociones.html">Promociones</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+            <section class="form-contenedor">
 
-    </header>
+                <h2 class="form__titulo">Contactanos</h2>
 
-    <main>
+               
 
-        <section>
+                <form class="form__body">
+                    
+                    <div>
+                        <label for="nombre">Ingrese su nombre</label>
+                        <input class="form__datos" id="nombre" type="text" placeholder="Nombre">
+                    </div>
 
-            <h2>Contactanos</h2>
-            <form action="">
-                <div>
-                    <label for="nombre">Ingrese su nombre</label>
-                    <input id="nombre" type="text" placeholder="Nombre">
-                </div>
+                    <div>
+                        <label for="telefono">Ingrese su telefono</label>
+                        <input class="form__datos" id="telefono" type="text" placeholder="Telefono">
+                    </div>
 
-                <div>
-                    <label for="telefono">Ingrese su telefono</label>
-                    <input id="telefono" type="text" placeholder="Telefono">
-                </div>
+                    <div>
+                        <label for="email">Ingrese su correo electronico</label>
+                        <input class="form__datos" id="email" type="email" placeholder="ejemplo@email.com">
+                    </div>
 
-                <div>
-                    <label for="email">Ingrese su correo electronico</label>
-                    <input id="email" type="email" placeholder="ejemplo@email.com">
-                </div>
+                    <div>
+                        <label for="mensaje">Ingrese su mensaje</label>
+                        <textarea class="form__area-texto" name="" id="mensaje" cols="30" rows="10" placeholder="Deje su mensaje"></textarea>
+                    </div>
 
-                <div>
-                    <label for="mensaje">Ingrese su mensaje</label>
-                    <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Deje su mensaje"></textarea>
-                </div>
+                    <div>
+                        <label for="enviar">Envie su mensaje</label>
+                        <input class="form__boton-enviar" id="enviar" type="submit" value="Enviar">
+                    </div>
+                
+                </form>
 
-                <div>
-                    <label for="enviar">Envie su mensaje</label>
-                    <input id="enviar" type="submit" value="Enviar">
-                </div>
+            
 
-            </form>
+            </section>
 
-        </section>
+        </main>
 
-    </main>
+        <footer class="pie bg-warning">
 
-    <footer>
-        <div>
-            <img src="../img/forno.jpg" alt="Logo">
-        </div>
-        <div>
-            <h2>SEGUINOS EN NUESTRAS REDES</h2>
-            <ul>
-                <li> <a href="https://www.facebook.com" target="_blank">Facebook</a> <img src="" alt=""></li>
-                <li> <a href="https://www.instagram.com" target="_blank">Instagram</a> <img src="" alt=""></li>
-                <li> <a href="https://www.youtube.com" target="_blank">Youtube</a> <img src="" alt=""></li>
-                <li> <a href="https://www.twitter.com" target="_blank">Twitter</a> <img src="" alt=""></li>
-            </ul>
-        </div>
+            <div class="pie__logo">
+                <img src="./img/paradiso.png" alt="">
+            </div>
+    
+            <div class="pie__redes">
+                <a class="pie__logos" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a class="pie__logos" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a class="pie__logos" href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a class="pie__logos" href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+    
+        </footer>
 
-        <p>Copyright <img src="" alt=""> Mariano Loreto</p>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
 
-    </footer>
 </body>
 
 </html>
